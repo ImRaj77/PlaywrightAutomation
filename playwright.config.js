@@ -18,7 +18,7 @@ const config = ({
     browserName:'chromium',
     // browserName:'firefox'
     // browserName:'webkik'
-    headless : false
+    headless : true
   },
 
 });
