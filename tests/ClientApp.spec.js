@@ -14,5 +14,5 @@ test.only('Rahulshetty Client App Playwright test', async ({page}) =>
     await page.locator(".card-body b").last().waitFor();       // It will wait for the last element to apear on DOM
     const titles = await page.locator(".card-body b").allTextContents();
     console.log(titles);
-
+    
 });
